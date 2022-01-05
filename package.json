@@ -8,5 +8,24 @@
       "android",
       "ios"
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkou15/cordova-plugin-basic-auth.git"
+  },
+  "keywords": [
+    "basic",
+    "auth",
+    "basicauth",
+    "basic-auth",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "author": "Koichi Takahashi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tkou15/cordova-plugin-basic-auth/issues"
+  },
+  "homepage": "https://github.com/tkou15/cordova-plugin-basic-auth#readme"
 }

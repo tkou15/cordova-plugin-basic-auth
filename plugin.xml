@@ -6,18 +6,20 @@
 
   <name>BasicAuthPlugin</name>
   <description>BasicAuth Plugin</description>
+  <license>MIT</license>
+  <author>Koichi Takahashi</author>
+  <keywords>basic,agenautht,basicauth,basic-auth</keywords>
 
   <platform name="android">
-
     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="BasicAuth">
         <param name="android-package" value="tkou15.cordova.plugins.BasicAuth.BasicAuth"/>
         <param name="onload" value="true" />
       </feature>
     </config-file>
-
     <source-file src="src/android/BasicAuth.java" target-dir="src/acn/plugins/BasicAuth" />
   </platform>
+
   <platform name="ios">
     <config-file parent="/*" target="config.xml">
       <feature name="BasicAuth">
@@ -27,6 +29,6 @@
     </config-file>
     <header-file src="src/ios/BasicAuth.h"/>
     <source-file src="src/ios/BasicAuth.m"/>
-   </platform>
+  </platform>
 
 </plugin>
