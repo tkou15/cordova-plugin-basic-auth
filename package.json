@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "name": "cordova-plugin-basic-auth",
+  "description": "BasicAuth Plugin",
+  "cordova": {
+    "id": "cordova-plugin-basic-auth",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  }
+}
