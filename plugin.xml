@@ -7,11 +7,6 @@
   <name>BasicAuthPlugin</name>
   <description>BasicAuth Plugin</description>
 
-  <js-module src="www/basic-auth.js" name="BasicAuth">
-    <clobbers target="BasicAuth" />
-  </js-module>
-
-  <!-- Android用の設定 -->
   <platform name="android">
 
     <config-file target="res/xml/config.xml" parent="/*">
@@ -21,10 +16,9 @@
       </feature>
     </config-file>
 
-    <!-- ソースファイル -->
     <source-file src="src/android/BasicAuth.java" target-dir="src/acn/plugins/BasicAuth" />
   </platform>
-	<platform name="ios">
+  <platform name="ios">
     <config-file parent="/*" target="config.xml">
       <feature name="BasicAuth">
         <param name="ios-package" value="BasicAuth"/>
@@ -32,6 +26,7 @@
       </feature>
     </config-file>
     <header-file src="src/ios/BasicAuth.h"/>
-		<source-file src="src/ios/BasicAuth.m"/>
-	</platform>
+    <source-file src="src/ios/BasicAuth.m"/>
+   </platform>
+
 </plugin>
