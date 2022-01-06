@@ -17,7 +17,7 @@
         <param name="onload" value="true" />
       </feature>
     </config-file>
-    <source-file src="src/android/BasicAuth.java" target-dir="src/acn/plugins/BasicAuth" />
+    <source-file src="src/android/BasicAuth.java" target-dir="src/tkou15/cordova/plugins/BasicAuth" />
   </platform>
 
   <platform name="ios">
